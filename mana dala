@@ -1,0 +1,181 @@
+class GalasProdukti:
+
+    def __init__(self, nosaukums, kaloriju_daudzums, tauku_daudzums, cukura_daudzums):
+        self.nosaukums = nosaukums
+        self.kaloriju_daudzums = kaloriju_daudzums
+        self.tauku_daudzums = tauku_daudzums
+        self.cukura_daudzums = cukura_daudzums
+
+visi_GalasProdukti = [
+    "cīsiņi- kcal: 2.26, tauki: 0.18, cukurs: 0.004"
+    "cūkgaļa- kcal: 1.9503, tauki: 0.134, cukurs: 0"
+    "desa- kcal: 2.8633, tauki: 0.2657, cukurs: 0"
+    "lielopa gaļa- kcal: 1.4794, tauki: 0.0715, cukurs: 0"
+    "nageti- kcal: 2.22, tauki: 0.12, cukurs: 0.05"
+    "olas- kcal: 1.6372, tauki: 0.1149, cukurs: 0.0036"
+    "pastēte- kcal: 3.64, tauki: 0.35, cukurs: 0.0019"
+    "pelmeņi- kcal: 2.9111, tauki: 0.1561, cukurs: 0.0055"
+    "vistas gaļa- kcal: 1.4316, tauki: 0.0265, cukurs: 0"
+    "zivis- kcal: 1.4508, tauki: 0.0265, cukurs: 0"
+    ]
+   
+gap1 = GalasProdukti("cīsiņi", 2.26, 0.18, 0.004)
+gap2 = GalasProdukti("desa", 2.8633, 0.2657, 0)
+gap3 = GalasProdukti("pastēte", 3.64, 0.35, 0.0019)
+gap4 = GalasProdukti("cūkgaļa", 1.9503, 0.134, 0)
+gap5 = GalasProdukti("lielopa gaļa", 1.4794, 0.0715, 0)
+gap6 = GalasProdukti("vistas gaļa", 1.4316, 0.0265, 0)
+gap7 = GalasProdukti("pelmeņi", 2.9111, 0.1561, 0.0055)
+gap8 = GalasProdukti("olas", 1.6372, 0.1149, 0.0036)
+gap9 = GalasProdukti("zivis", 1.4508, 0.0265, 0)
+gap10 = GalasProdukti("nageti", 2.22, 0.12, 0.05)
+
+    elif(darbiba == 4):
+        #print("Kad vēlaties beigt ivadīt produktus rakstiet: BEIGT ")
+        vards = input("Ievadiet produkta nosaukumu: ")
+        daudzums = int(input("Ievadiet produkta daudzumu: "))
+        print("_____________________")
+        if vards == "BEIGT":
+            exit()
+
+        elif vards == gap1.nosaukums:
+            kal = gap1.kaloriju_daudzums
+            tauk = gap1.tauku_daudzums
+            cuk = gap1.cukura_daudzums
+
+        elif vards == gap2.nosaukums:
+            kal = gap2.kaloriju_daudzums
+            tauk = gap2.tauku_daudzums
+            cuk = gap2.cukura_daudzums
+
+        elif vards == gap3.nosaukums:
+            kal = gap3.kaloriju_daudzums
+            tauk = gap3.tauku_daudzums
+            cuk = gap3.cukura_daudzums
+
+        elif vards == gap4.nosaukums:
+            kal = gap4.kaloriju_daudzums
+            tauk = gap4.tauku_daudzums
+            cuk = gap4.cukura_daudzums
+
+        elif vards == gap5.nosaukums:
+            kal = gap5.kaloriju_daudzums
+            tauk = gap5.tauku_daudzums
+            cuk = gap5.cukura_daudzums
+
+        elif vards == gap6.nosaukums:
+            kal = gap6.kaloriju_daudzums
+            tauk = gap6.tauku_daudzums
+            cuk = gap6.cukura_daudzums
+
+        elif vards == gap7.nosaukums:
+            kal = gap7.kaloriju_daudzums
+            tauk = gap7.tauku_daudzums
+            cuk = gap7.cukura_daudzums
+
+        elif vards == gap8.nosaukums:
+            kal = gap8.kaloriju_daudzums
+            tauk = gap8.tauku_daudzums
+            cuk = gap8.cukura_daudzums
+
+        elif vards == gap9.nosaukums:
+            kal = gap9.kaloriju_daudzums
+            tauk = gap9.tauku_daudzums
+            cuk = gap9.cukura_daudzums
+
+        elif vards == gap10.nosaukums:
+            kal = gap10.kaloriju_daudzums
+            tauk = gap10.tauku_daudzums
+            cuk = gap10.cukura_daudzums
+
+
+
+class GrauduProdukti:
+
+    def __init__(self, nosaukums, kaloriju_daudzums, tauku_daudzums, cukura_daudzums):
+        self.nosaukums = nosaukums
+        self.kaloriju_daudzums = kaloriju_daudzums
+        self.tauku_daudzums = tauku_daudzums
+        self.cukura_daudzums = cukura_daudzums
+
+visi_GrauduProdukti = [
+    "auzu pārslas- kcal: 0.4804, tauki: 0.0091, cukurs: 0.0015"
+    "baltmaize- kcal: 2.3064, tauki: 0.0098, cukurs: 0.0075"
+    "graudu maize- kcal: 3.33, tauki: 0.104, cukurs: 0.008"
+    "griķi- kcal: 1,2906, tauki: 0.008, cukurs: 0.0018"
+    "makaroni- kcal: 0.9799, tauki: 0.0033, cukurs: 0.0015"
+    "pupiņas- kcal: 0.3561, tauki: 0.0026, cukurs: 0.0311"
+    "rīsi- kcal: 1,3695, tauki: 0.0028, cukurs: 0.0016"
+    "rudzu maize- kcal: 2.5, tauki: 0.0133, cukurs: 0.0106"
+    "saldskābā maize- kcal: 2.41, tauki: 0.011, cukurs: 0.032"
+    "zirņi- kcal: 0.7505, tauki: 0.0079, cukurs: 0.0531"
+]
+
+grp1 = GrauduProdukti("rīsi", 1,3695, 0.0028, 0.0016)
+grp2 = GrauduProdukti("griķi", 1,2906, 0.008, 0.0018)
+grp3 = GrauduProdukti("auzu pārslas", 0.4804, 0.0091, 0.0015)
+grp4 = GrauduProdukti("makaroni", 0.9799, 0.0033, 0.0015)
+grp5 = GrauduProdukti("baltmaize", 2.3064, 0.0098, 0.0075)
+grp6 = GrauduProdukti("rudzu maize", 2.5, 0.0133, 0.0106)
+grp7 = GrauduProdukti("saldskābā maize", 2.41, 0.011, 0.032)
+grp8 = GrauduProdukti("graudu maize", 3.33, 0.104, 0.008)
+grp9 = GrauduProdukti("zirņi", 0.7505, 0.0079, 0.0531)
+grp10 = GrauduProdukti("pupiņas", 0.3561, 0.0026, 0.0311)
+
+    elif(darbiba == 4):
+        #print("Kad vēlaties beigt ivadīt produktus rakstiet: BEIGT ")
+        vards = input("Ievadiet produkta nosaukumu: ")
+        daudzums = int(input("Ievadiet produkta daudzumu: "))
+        print("_____________________")
+        if vards == "BEIGT":
+            exit()
+
+        elif vards == grp1.nosaukums:
+            kal = grp1.kaloriju_daudzums
+            tauk = grp1.tauku_daudzums
+            cuk = grp1.cukura_daudzums
+
+        elif vards == grp2.nosaukums:
+            kal = grp2.kaloriju_daudzums
+            tauk = grp2.tauku_daudzums
+            cuk = grp2.cukura_daudzums
+
+        elif vards == grp3.nosaukums:
+            kal = grp3.kaloriju_daudzums
+            tauk = grp3.tauku_daudzums
+            cuk = grp3.cukura_daudzums
+
+        elif vards == grp4.nosaukums:
+            kal = grp4.kaloriju_daudzums
+            tauk = grp4.tauku_daudzums
+            cuk = grp4.cukura_daudzums
+
+        elif vards == grp5.nosaukums:
+            kal = grp5.kaloriju_daudzums
+            tauk = grp5.tauku_daudzums
+            cuk = grp5.cukura_daudzums
+
+        elif vards == grp6.nosaukums:
+            kal = grp6.kaloriju_daudzums
+            tauk = grp6.tauku_daudzums
+            cuk = grp6.cukura_daudzums
+
+        elif vards == grp7.nosaukums:
+            kal = grp7.kaloriju_daudzums
+            tauk = grp7.tauku_daudzums
+            cuk = grp7.cukura_daudzums
+
+        elif vards == grp8.nosaukums:
+            kal = grp8.kaloriju_daudzums
+            tauk = grp8.tauku_daudzums
+            cuk = grp8.cukura_daudzums
+
+        elif vards == grp9.nosaukums:
+            kal = grp9.kaloriju_daudzums
+            tauk = grp9.tauku_daudzums
+            cuk = grp9.cukura_daudzums
+
+        elif vards == grp10.nosaukums:
+            kal = grp10.kaloriju_daudzums
+            tauk = grp10.tauku_daudzums
+            cuk = grp10.cukura_daudzums
